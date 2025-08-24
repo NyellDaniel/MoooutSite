@@ -5,6 +5,7 @@
     list-style: none;
 }
 body{
+    font-family: 'BR sonoma', sans-serif;
     color:#fff ;
     font-size: 18px;
 
@@ -103,13 +104,15 @@ header {
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
-    height: 40vh;
+    padding: 60px 20px;
     text-align: center;
     background-color: #fff;
+    margin-top: 4rem;
+    height: auto;
 
 
     .pai-txt2{
-        margin-top: 80px;
+        margin-top: 100px;
         max-width: 1000px;
         width: 100%;
         
@@ -124,12 +127,13 @@ header {
         }
         .linha {
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             gap: 40px;
+            flex-wrap: wrap;
         }
 
         .cont_m{
-            margin-top: 5 auto;
+            margin-top: 10 auto;
             flex: 1;
             min-width: 300px;
             background: rgba(231, 231, 232, 0.729);
@@ -167,13 +171,12 @@ header {
   .span_main{
 
     margin: 0 auto;
-    height: 80vh;
     background-color: #65166B;
     text-align: center;
     padding-top: 70px;
-    margin-top: 50px;
+    margin-top: 8rem;
 
-}
+  }
   .span_txt1 {
         width: 100%;
 
@@ -183,3 +186,247 @@ header {
             color: #A487AAFC;
             
         }
+.mot_2{
+    margin-bottom: 30px;
+    color: ;
+}        
+.mot_3{
+    margin-bottom: 20px;
+}
+.span_txt2{
+    font-size: 20px;
+
+    & p{
+        color: #A487AAFC;
+        font-size: 18px;
+    }
+}
+   .btn_pol {
+    width: 200px;
+    height: 35px;
+    color: #fff;
+    background-color:#d318b4 ;
+    border: none;
+    border-radius: 8px;
+    margin-top: 40px;
+   }
+
+.span_img {
+    margin-top: 20px;
+    margin-bottom: 0;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background-image: url("img/Mooout-Phones.jpg");
+    background-size: contain;   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #65166B;
+}  
+
+.contain_driv{
+
+    padding: 40px 20px;
+    
+}
+
+.driv_main{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "txt1 txt1"
+        "img1 txt2";
+    gap: 20px;
+    align-items: start;
+    margin: 0 auto;
+    text-align: start;
+
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+
+.driv_txt1 {
+    color: #7A7A7A;
+    grid-area: txt1;
+    text-align: left;
+    padding: 0 20px;
+}
+.driv_txt1 h2{
+    margin-bottom: 20px;
+    color: #AB3E99;
+}
+.driv_txt1 p{
+    margin-bottom: 60px;
+}
+
+.driv_img1{
+    grid-area: img1;
+    
+}
+
+.driv_txt2 {
+    color: #7A7A7A;
+    grid-area: txt2;
+    text-align: left;
+    padding: 0 20px;
+}
+.driv_txt2 h2{
+    margin-bottom: 20px;
+    color: #AB3E99;
+}
+
+.driv_img1 img{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 60px;
+    padding: 0 20px;
+}
+
+.driv_txt3 h2{
+    margin-bottom: 20px;
+    color: #AB3E99;
+    padding: 0 20px;
+    margin-top: 70px;
+}
+
+.driv_txt3 p{
+    margin-bottom: 20px;
+    color: #7A7A7A;
+    padding: 0 20px;
+    margin-top: 10px;
+}
+
+.driv_img2 img{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 60px;
+    padding: 0 20px;
+    margin-top: 70px;
+}
+
+.min_footer{
+   
+    position: relative;
+    height: auto;
+    display: flex;
+    padding: 40px 5%;
+    justify-content: space-between;
+    align-items: center;
+    color: #7A7A7A;
+    gap: 30px;
+    margin-top: 90px;
+    flex-wrap: wrap;
+}
+
+    .contain_call{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          flex: 1;
+
+          & img{
+            display: block;
+            width: 120px;
+            object-fit: contain;
+            margin-bottom: 10px;
+            
+          }
+
+          & p{
+            margin: 0;
+            font-size: 16px;
+          }
+        
+    }
+
+    .cont_contacto{
+
+           align-items: center;
+           display: flex;
+           flex-direction: column;
+           gap: 15px;
+           padding: auto;
+           justify-content: center;
+           text-align: center;
+
+         & h3{
+            color: #AB3E99;
+            margin-bottom: 10px;
+            font-size: 18px;
+            
+         } 
+        
+    }
+        .tel_email{
+             display: flex;
+             flex-direction: column;
+             gap: 15px;
+             align-items: center;
+
+          & img{
+            width: 25px;
+            height: 25px;
+          }   
+        }
+
+        .tel_email .item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+    .icon_redes{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        flex: 1;
+
+        & img{
+            width: 35px;
+            height: 35px;
+            cursor: poinnter;
+            transition: transform 0.3s ease, filter 0.3s ease;
+        }
+        & img:hover{
+            transform: scale(1.1);
+            filter: brightness(1.2);
+
+        }
+    }    
+
+   
+    .contain_polt{
+        background-color: #F0F0F0;
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        padding: 20px;
+        text-align: center;
+        position: relative;
+        font-size: 15px;
+        flex-wrap: wrap;
+
+        & p{
+            color: #7A7A7A;
+        }
+
+        & a{
+            color: #AB3E99;
+            text-decoration: none;
+            transition: transform 0.3s ease, filter 0.3s ease;
+
+             & :hover{
+            transform: scale(1.1);
+            filter: brightness(1.2);
+
+        }
+        }
+    }
